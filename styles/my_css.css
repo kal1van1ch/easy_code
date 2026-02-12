@@ -2,13 +2,16 @@
     .ya_map {
         width: 500px;
     }   
+}
 
 @media (max-width: 510px) {
     .ya_map {
         width: 300px;
     }   
+}
 
 @media (max-width: 310px) {
     .ya_map {
         width: 150px;
     }   
+}
