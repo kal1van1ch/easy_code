@@ -1,12 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>404 NOT FOUND</title>
     <link rel="stylesheet" href="styles/bulma/css/bulma.css">
+    <link rel="stylesheet" href="styles/my_css.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <img class="navbar-item" src="assets/logo.png" alt="Logo">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero is-medium">
+            <div class="columns is-vcentered">
+                <div class="column">
+                    <div class="has-text-centered">
+                        <figure class="image is-inline-block">
+                            <img src="assets/404.png" alt="404">
+                        </figure>
+                    </div>
+                </div>
+                <div class="column has-text-centered has-text-white">
+                    <p class="title is-1">
+                        ОШИБКА 404<br>
+                        Страница не найдена
+                    </p>
+                    <a href="index.html" class="button is-warning is-rounded is-large has-text-weight-bold">
+                        НА ГЛАВНУЮ
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="animation.js"></script>
+    <footer class="mt-6" id="footer">
+        <div class="container">
+            <div class="content mb-5">
+                <address class="mb-3">
+                    <strong>Наш адрес:</strong><br>
+                    Россия, г.Москва, пр. Вернадского 78с4, 2 этаж, Unifood
+                </address>
+                <p>
+                    <strong>Email:</strong><br>
+                    easy_code@gmail.com<br>
+                    easy_code@yandex.ru
+                </p>
+            </div>
+            <figure class="image mb-4">
+                <iframe class="ya_map"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Ada7015cf45b4892afaf338399d23a720fc753a7b7559b8b25691ad0025264ed6&amp;source=constructor"
+                    width="765" height="465" frameborder="0">
+                </iframe>
+            </figure>
+        </div>
+    </footer>
 </body>
+
 </html>
