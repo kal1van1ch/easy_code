@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easy_code</title>
+    <link rel="stylesheet" href="styles/bulma/css/bulma.css">
+</head>
+
+<body class="has-navbar-fixed-top">
+    <header>
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <img class="navbar-item" src="assets/logo.png" alt="Logo">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="has-text-weight-bold navbar-item" href="#main">
+                        Главная
+                    </a>
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="has-text-weight-bold navbar-link">
+                            Языки для изучения
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item" href="#py">
+                                Python
+                            </a>
+                            <a class="navbar-item" href="#java">
+                                Java
+                            </a>
+                            <a class="navbar-item" href="#cpp">
+                                C++
+                            </a>
+                            <a class="navbar-item" href="#go">
+                                Go
+                            </a>
+                        </div>
+                    </div>
+                    <a class="has-text-weight-bold navbar-item" href="#reply">
+                        Отзывы
+                    </a>
+                    <a class="has-text-weight-bold navbar-item" href="#footer">
+                        Контактная информация
+                    </a>
+                </div>
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-light">
+                                <strong>Войти</strong>
+                            </a>
+                            <a class="button">
+                                Зарегестрироваться
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero is-info">
+            <div class="container">
+                <div class="hero-body">
+                    <div class="columns">
+                        <div class="column has-text-centered">
+                            <p class="title is-1">
+                                Programming for everyone
+                            </p>
+                            <p class="subtitle is-3 mt-4">
+                                Изучайте программирование весело и эффективно
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="main">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <p class="title mt-6">
+                            Наш сайт основан 21 ноября 2022 года
+                        </p>
+                        <p class="subtitle is-3 mt-4">
+                            С того времени:
+                        </p>
+                        <div class="content">
+                            <ul>
+                                <li class="is-size-5">
+                                    Мы подготовили свыше 500 специалистов
+                                </li>
+                                <li class="is-size-5">
+                                    Наши выпускники заняли десятки призовых и сотни призёрских
+                                    мест в межлународных соревнованиях по программированию
+                                </li>
+                                <li class="is-size-5">
+                                    Наши выпускники успели занять руководящие должности в крупных компаниях
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <figure class="image">
+                            <img src="assets/progress.jpg" alt="awards">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="title has-text-centered mb-6">
+                    ЯЗЫКИ, ПРЕДСТАВЛЕННЫЕ К ИЗУЧЕНИЮ НА САЙТЕ
+                </div>
+                <div class="columns is-multiline">
+                    <div class="column is-one-fourth is-flex">
+                        <div class="box is-flex-grow-1" id="py">
+                            <div class="has-text-centered">
+                                <figure class="image is-48x48 is-inline-block">
+                                    <img src="assets/python.png" alt="py">
+                                </figure>
+                            </div>
+                            <div class="content mt-4">
+                                <ul>
+                                    <li>
+                                        Очень простой и читаемый синтаксис
+                                    </li>
+                                    <li>
+                                        Быстрая разработка
+                                    </li>
+                                    <li>
+                                        Огромное количество библиотек (AI, ML, веб, автоматизация, анализ данных)
+                                    </li>
+                                    <li>
+                                        Отличен для прототипирования
+                                    </li>
+                                    <li>
+                                        Кроссплатформенность
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-fourth is-flex">
+                        <div class="box is-flex-grow-1" id="java">
+                            <div class="has-text-centered">
+                                <figure class="image is-48x48 is-inline-block">
+                                    <img src="assets/java.png" alt="java">
+                                </figure>
+                            </div>
+                            <div class="content mt-4">
+                                <ul>
+                                    <li>
+                                        Платформонезависимость
+                                    </li>
+                                    <li>
+                                        Высокая стабильность и надежность
+                                    </li>
+                                    <li>
+                                        Отличная многопоточность
+                                    </li>
+                                    <li>
+                                        Огромная экосистема и корпоративная поддержка
+                                    </li>
+                                    <li>
+                                        Строгая типизация
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-fourth is-flex">
+                        <div class="box is-flex-grow-1" id="cpp">
+                            <div class="has-text-centered">
+                                <figure class="image is-48x48 is-inline-block">
+                                    <img src="assets/cpp.png" alt="cpp">
+                                </figure>
+                            </div>
+                            <div class="content mt-4">
+                                <ul>
+                                    <li>
+                                        Очень высокая производительность
+                                    </li>
+                                    <li>
+                                        Контроль над памятью
+                                    </li>
+                                    <li>
+                                        Подходит для системного программирования
+                                    </li>
+                                    <li>
+                                        Используется в играх и высоконагруженных системах
+                                    </li>
+                                    <li>
+                                        Поддержка разных парадигм (ООП, процедурное, шаблоны)
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-one-fourth is-flex">
+                        <div class="box is-flex-grow-1" id="go">
+                            <div class="has-text-centered">
+                                <figure class="image is-48x48 is-inline-block">
+                                    <img src="assets/go.png" alt="go">
+                                </figure>
+                            </div>
+                            <div class="content mt-4">
+                                <ul>
+                                    <li>
+                                        Простота синтаксиса
+                                    </li>
+                                    <li>
+                                        Встроенная конкурентность (goroutines)
+                                    </li>
+                                    <li>
+                                        Высокая производительность
+                                    </li>
+                                    <li>
+                                        Быстрая компиляция
+                                    </li>
+                                    <li>
+                                        Отлично подходит для микросервисов
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="reply">
+            <div calss="container">
+                <div class="title has-text-centered mb-6">
+                    ОТЗЫВЫ НАШИХ УЧЕНИКОВ
+                </div>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="https://avatars.mds.yandex.net/i?id=0adf2b7b2fdb2e932c3d13f11827c99f-5878159-images-thumbs&ref=rim&n=33&w=444&h=250"
+                                    alt="photo1">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>goosegoose</strong> <small>sc********@gmail.com</small>
+                                    <small>29.10.2025</small>
+                                    <br />Деньги льются рекой, шлюз не закрывается, спасибо составителям курса
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="assets/ava.jpg" alt="photo2">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>kal1van1ch</strong> <small>mi********@gmail.com</small>
+                                    <small>05.11.2025</small>
+                                    <br />Благодаря данному сайту я устроился на вакансию младшего тестировщика (QA)
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="box">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-64x64">
+                                <img src="assets/valya.jpg" alt="photo3">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <p>
+                                    <strong>value</strong> <small>va********@gmail.com</small>
+                                    <small>19.02.2026</small>
+                                    <br />В целом неплохо, Java представлена хорошо, жду добавление Kotlin
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="box mt-5">
+                <div class="field">
+                    <label class="label">Оставьте свой отзыв</label>
+                    <div class="control">
+                        <input class="input">
+                    </div>
+                </div>
+                <button class="button is-light">Отправить</button>
+            </div>
+        </section>
+    </main>
+    <script src="animation.js"></script>
+    <footer id="footer">
+        <div class="container">
+            <div class="content mb-5">
+                <address class="mb-3">
+                    <strong>Наш адрес:</strong><br>
+                    Россия, г.Москва, пр. Вернадского 78с4, 2 этаж, Unifood
+                </address>
+                <p>
+                    <strong>Email:</strong><br>
+                    easy_code@gmail.com<br>
+                    easy_code@yandex.ru
+                </p>
+            </div>
+            <figure class="image mb-4">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ada7015cf45b4892afaf338399d23a720fc753a7b7559b8b25691ad0025264ed6&amp;source=constructor" width="765" height="465" frameborder="0"></iframe>
+            </figure>
+        </div>
+    </footer>
+</body>
+
+</html>
