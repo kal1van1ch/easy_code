@@ -7,7 +7,5 @@ kal1van1ch
 - JavaScript
 ## CSS фреймворки, использованные при разработке
 - Bulma
-## Схема сайта
-![Схема сайта](assets/schema.png "Схема сайта")
 ## Ссылка на старницу сайта
 - [easy_code](https://kal1van1ch.github.io/easy_code/)
