@@ -40,33 +40,35 @@
                         Сообщите об ошибке
                     </p>
                 </div>
-                <div class="box mt-5" id="feedback">
-                    <div class="field">
-                        <label class="label">Напишите почту, на которую прислать ответ</label>
-                        <div class="control">
-                            <input class="input" id="userEmail" type="email" placeholder="example@gmail.com">
+                <form id="feedback">
+                    <div class="box mt-5" >
+                        <div class="field">
+                            <label class="label">Напишите почту, на которую прислать ответ</label>
+                            <div class="control">
+                                <input class="input" id="userEmail" type="email" placeholder="example@gmail.com">
+                            </div>
+                            <label class="label">Напишите вашу фамилию и имя</label>
+                            <div class="control">
+                                <input class="input" id="userFullName" type="text" placeholder="Иванов Иван">
+                            </div>
+                            <label class="label">Опишите проблему</label>
+                            <div class="control">
+                                <textarea class="textarea my-height" id="textField" placeholder="Проблема в том..."></textarea>
+                            </div>
                         </div>
-                        <label class="label">Напишите вашу фамилию и имя</label>
-                        <div class="control">
-                            <input class="input" id="userFullName" type="text" placeholder="Иванов Иван">
+                        <div class="field">
+                            <div class="control">
+                                <label class="checkbox">
+                                    <input type="checkbox" id="agreement">
+                                    Я согласен на обработку персональных данных
+                                </label>
+                            </div>
                         </div>
-                        <label class="label">Опишите проблему</label>
-                        <div class="control">
-                            <textarea class="textarea my-height" id="textField" placeholder="Проблема в том..."></textarea>
-                        </div>
+                        <button class="button is-light" type="submit">
+                            <span>Отправить</span>
+                        </button>
                     </div>
-                    <div class="field">
-                        <div class="control">
-                            <label class="checkbox">
-                                <input type="checkbox" id="agreement">
-                                Я согласен на обработку персональных данных
-                            </label>
-                        </div>
-                    </div>
-                    <button class="button is-light" type="submit">
-                        <span>Отправить</span>
-                    </button>
-                </div>
+                </form>
             </div>
         </section>
     </main>
@@ -90,6 +92,6 @@
             </figure>
         </div>
     </footer>
-    <scrip src="src/control.js"></scrip>
+    <script src="src/control.js"></script>
 </body>
 </html>
