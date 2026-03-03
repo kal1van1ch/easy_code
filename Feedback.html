@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="styles/bulma/css/bulma.css">
+    <link rel="stylesheet" href="styles/my_css.css">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon">
+</head>
+
+<body class="has-navbar-fixed-top">
+    <header>
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <img class="navbar-item" src="assets/logo.png" alt="Logo">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                   data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="has-text-weight-bold navbar-item" href="index.html">
+                        Главная
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="column has-text-centered">
+                    <p class="title is-1">
+                        Сообщите об ошибке
+                    </p>
+                </div>
+                <div class="box mt-5" id="feedback">
+                    <div class="field">
+                        <label class="label">Напишите почту, на которую прислать ответ</label>
+                        <div class="control">
+                            <input class="input" id="userEmail" type="email" placeholder="example@gmail.com">
+                        </div>
+                        <label class="label">Напишите вашу фамилию и имя</label>
+                        <div class="control">
+                            <input class="input" id="userFullName" type="text" placeholder="Иванов Иван">
+                        </div>
+                        <label class="label">Опишите проблему</label>
+                        <div class="control">
+                            <textarea class="textarea my-height" id="textField" placeholder="Проблема в том..."></textarea>
+                        </div>
+                    </div>
+                    <div class="field">
+                        <div class="control">
+                            <label class="checkbox">
+                                <input type="checkbox" id="agreement">
+                                Я согласен на обработку персональных данных
+                            </label>
+                        </div>
+                    </div>
+                    <button class="button is-light" type="submit">
+                        <span>Отправить</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="content mb-5">
+                <address class="mb-3">
+                    <strong>Наш адрес:</strong><br>
+                    Россия, г.Москва, пр. Вернадского 78с4, 2 этаж, Unifood
+                </address>
+                <p>
+                    <strong>Email:</strong><br>
+                    easy_code@gmail.com<br>
+                    easy_code@yandex.ru
+                </p>
+            </div>
+            <figure class="image mb-4">
+                <iframe class="ya_map"
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3Ada7015cf45b4892afaf338399d23a720fc753a7b7559b8b25691ad0025264ed6&amp;source=constructor" width="765" height="465" frameborder="0">
+                </iframe>
+            </figure>
+        </div>
+    </footer>
+    <scrip src="src/control.js"></scrip>
+</body>
+</html>

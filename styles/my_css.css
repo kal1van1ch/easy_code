@@ -19,3 +19,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.my-height {
+    height: 200px;
+}
