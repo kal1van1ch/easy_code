@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
 
     const form = document.getElementById('feedback');
-    const userEmail = document.getElementById('userEmail');
-    const userFullName = document.getElementById('userFullName');
-    const agreement = document.getElementById('agreement');
-    const textField = document.getElementById('textField');
+    let userEmail = document.getElementById('userEmail');
+    let userFullName = document.getElementById('userFullName');
+    let agreement = document.getElementById('agreement');
+    let textField = document.getElementById('textField');
     const MESSAGE = 'Форма была успешно отправлена';
 
     userEmail.addEventListener('input', function () {
@@ -54,9 +54,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if(isValidForm) {
             alert(MESSAGE);
+            showInfoInConsole();
             form.reset();
         }
     });
+
+
+    function showInfoInConsole() {
+        console.clear();
+        const timestamp = new Date().toLocaleString();
+        console.log('Почта:', userEmail.value.trim());
+        console.log('Фамилия и имя:', userFullName.value.trim());
+        console.log('Тема обращения:', textField.value.trim());
+        console.log('Время отправки:', timestamp);
+    }
 
 
     function clearErrors(){
